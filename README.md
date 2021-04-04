@@ -1,2 +1,2 @@
 # Skateboard2Server
-Custom Server compatable with Skate 2
+Custom Server compatible with Skate 2
