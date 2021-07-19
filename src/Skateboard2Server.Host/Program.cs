@@ -80,8 +80,6 @@ namespace Skateboard2Server.Host
                         //        options.UseConnectionLogging(loggingFormatter: HexLoggingFormatter)
                         //        .UseConnectionHandler<DummyConnectionHandler>();
                         //    });
-                        ////downloads.skate.online (HTTP)
-                        //serverOptions.ListenAnyIP(80);
                     })
                         .UseStartup<Startup>();
                 });
