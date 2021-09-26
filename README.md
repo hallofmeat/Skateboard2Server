@@ -2,7 +2,7 @@
 
 Custom Server compatible with Skate 2
 
-https://hallofmeat.net/
+https://hallofmeat.net
 
 ## Done
 
