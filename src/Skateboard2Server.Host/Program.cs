@@ -24,25 +24,6 @@ namespace Skateboard2Server.Host
             try
             {
                 CreateHostBuilder(args).Build().Run();
-
-                //var port = 18040;
-                //var localAddr = IPAddress.Parse("127.0.0.1");
-                //var server = new TcpListener(localAddr, port);
-                //server.Start();
-
-                //Console.WriteLine("Server Started");
-
-                //while (true)
-                //{
-                //    var client = server.AcceptTcpClient();
-                //    Console.WriteLine("Client Connected");
-                //    var protocol = new TlsServerProtocol(client.GetStream(),
-                //        new Org.BouncyCastle.Security.SecureRandom());
-                //    protocol.Accept(new FeslTlsServer());
-                //    Console.WriteLine("Ssl handshake done");
-                //    client.Close();
-                //}
-
             }
             finally
             {
